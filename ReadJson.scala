@@ -1,4 +1,3 @@
-package stackoverflow
 
 import org.apache.spark
 import org.apache.spark.{RangePartitioner, SparkConf, SparkContext}
