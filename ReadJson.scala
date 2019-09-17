@@ -39,6 +39,8 @@ object ReadJson {
     jsondata1.createOrReplaceTempView("biz")
     jsondata1.sqlContext.sql("select address from biz where is_open==1").show()
     jsondata1.sqlContext.sql("select count(*) from biz").show()
+    jsondata1.sqlContext.sql("select city,count(1) as bi from biz where group by city order by bi DESC").show()
+    //jsondata1.write.json("/home/gslab/Spark/Json/output")
   }
 }
 
