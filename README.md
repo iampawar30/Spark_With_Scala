@@ -7,6 +7,6 @@ RDDs,SparkSQL,SparkML
   spark-shell --driver-class-path mysql-connector-java-8.0.11.jar
   import org.apache.spark.sql.SQLContext
 
-  val url = "jdbc:mysql://localhost:3306/sparktest?user=ash&password=gslab@123"
+  val url = "jdbc:mysql://localhost:3306/sparktest?user=ash&password=*******"
 
   sqlContext.load("jdbc", Map("url" -> url,"dbtable" -> "orders")).toDF.show
