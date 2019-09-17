@@ -1,0 +1,66 @@
++--------------------+--------------------+--------------------+--------------------+---------+--------------------+-------+-------------+--------------+--------------------+-----------------+-----------+------------+-----+-----+
+|             address|          attributes|         business_id|          categories|     city|               hours|is_open|     latitude|     longitude|                name|     neighborhood|postal_code|review_count|stars|state|
++--------------------+--------------------+--------------------+--------------------+---------+--------------------+-------+-------------+--------------+--------------------+-----------------+-----------+------------+-----+-----+
+|2128 Warrensville...|[null,null,null,n...|jqp5TibmgJZVFKHTp...|[Car Wash, Automo...|Cleveland|[8:30-18:00,8:30-...|      1|   41.5018198|    -81.536776|Alpaul Automobile...|                 |      44121|          25|  3.0|   OH|
+|      3710 Payne Ave|[null,null,null,n...|1cLXGXThDYZ5WK_Kp...|[Food, Bakeries, ...|Cleveland|[9:00-20:00,9:00-...|      1|   41.5094078|   -81.6621618|         Koko Bakery|Goodrich Kirtland|      44114|         162|  4.0|   OH|
+|      13181 Cedar Rd|[null,null,none,[...|Pawavw9U8rjxWVPU-...|[Chinese, Restaur...|Cleveland|[11:30-22:00,11:3...|      1|   41.5014129|   -81.5659822|Richie Chan's Chi...|                 |      44118|          22|  3.5|   OH|
+|                    |[null,null,null,n...|2bGCupC5mfHmEaor4...|[Home Services, H...|Cleveland|[0:00-0:00,0:00-0...|      1|    41.376464|   -81.7677645|       Clean Machine|                 |      44130|           3|  4.5|   OH|
+|       1 American Rd|[null,null,null,n...|Q7Xw5YbS4wN7sdqZR...|[Event Planning &...|Cleveland|[null,null,null,n...|      1|      41.4375|   -81.7636255|           Cardstore|         Brooklyn|      44144|           8|  2.5|   OH|
+|     728 Richmond Rd|[null,null,null,n...|wkhxaIt6S9bQ0twAD...|[Restaurants, Pizza]|Cleveland|[11:00-23:00,11:0...|      0|   41.5408137|   -81.4976768|Giuseppes Pizza &...|                 |      44143|           6|  3.5|   OH|
+|     1640 Walnut Ave|[null,null,null,n...|fNV-Fd_bNmny8RrHC...|[Pool Halls, Dive...|Cleveland|[null,null,null,n...|      0|   41.5039273|   -81.6807724|           Moe's Bar| Playhouse Square|      44114|           3|  4.5|   OH|
+|   6812 Broadview Rd|[null,null,null,n...|L_YeE3xGRKKrQlsJ_...|[Venues & Event S...|Cleveland|[0:00-23:55,0:00-...|      1|   41.3800192|   -81.6847822|Pokrova Ukrainian...|                 |      44134|           3|  3.5|   OH|
+|   6770 Brookpark Rd|[null,null,null,n...|2xcnolaD9e6voXJnr...|[Specialty Food, ...|Cleveland|[10:00-20:00,10:0...|      1|    41.420046|    -81.731944|  B.A. Sweetie Candy|                 |      44129|          49|  4.0|   OH|
+|    11625 Euclid Ave|[null,null,full_b...|VUb97h3RTg6InKdfg...|[Restaurants, Bar...|Cleveland|[11:00-2:30,16:00...|      1|   41.5111069|   -81.6026252|Happy Dog at the ...|                 |      44106|          70|  4.0|   OH|
+|      13908 Cedar Rd|[null,null,null,n...|29PlNR05Bh0qUZK0C...|[Home Services, I...|Cleveland|[null,null,null,n...|      1|   41.5008913|   -81.5392711|     Tuesday Morning|                 |      44118|           4|  4.5|   OH|
+|    7412 Detroit Ave|[null,null,none,[...|CtYWpX_cy1YdZgoKt...|[Pizza, Restaurants]|Cleveland|[10:00-1:00,10:00...|      1|   41.4827824|   -81.7362257|        Happys Pizza| Detroit-Shoreway|      44102|          17|  2.0|   OH|
+|  4645 Northfield Rd|[null,null,null,n...|n8GCGa5gX17Ibix5V...|[Fast Food, Resta...|Cleveland|[10:30-23:00,10:3...|      1|   41.4306838|   -81.5249463|Popeyes Louisiana...|                 |      44128|           3|  3.5|   OH|
+|       4215 Ridge Rd|[null,null,null,n...|Tse6B0tklvsQwURxd...|[Oil Change Stati...|Cleveland|[8:00-18:00,8:00-...|      1|    41.441818|    -81.734912|    Bob's Automotive|  Ridge & Memphis|      44144|           4|  5.0|   OH|
+|       One Center Ct|[null,null,null,n...|VgSF_jQ8St7A2Dhda...|[Stadiums & Arena...|Cleveland|[null,null,null,n...|      1| 41.496880357|-81.6887140274| Quicken Loans Arena| Gateway District|      44115|         113|  4.0|   OH|
+| 1111 Lakeside Ave E|[null,null,null,n...|q1DPrSrM1cbdTnUON...|[Hotels & Travel,...|Cleveland|[null,null,null,n...|      0|   41.5065352|   -81.6896137|Holiday Inn Selec...|     Civic Center|      44114|           3|  2.5|   OH|
+|     1900 Euclid Ave|[null,null,none,[...|8FZftD3Y5jQ2R44ED...|[Restaurants, Cre...|Cleveland|[9:00-17:00,9:00-...|      1|   41.5011857|   -81.6774369|    Cafe Bon Appetit|       Quadrangle|      44115|          40|  4.5|   OH|
+|      24325 Cedar Rd|[null,null,full_b...|WpkuAJfHSIgjppRC-...|[Restaurants, Bar...|Cleveland|[11:00-23:00,11:0...|      1|     41.50316|   -81.5023265|  Brio Tuscan Grille|                 |      44124|           8|  2.5|   OH|
+|       5796 Ridge Rd|[null,null,null,n...|_4XNJwfU8UXjuwz1a...|[Tanning Beds, Sp...|Cleveland|[10:00-20:30,10:0...|      1|41.4050281598|-81.7347568274|         Totally Tan|                 |      44129|           5|  5.0|   OH|
+|      200 Euclid Ave|[null,null,beer_a...|YNI26xBkdOzI1TMGm...|[Mexican, Restaur...|Cleveland|[7:00-3:00,7:00-2...|      1|41.4993104059|-81.6915189047|   Taco Bell Cantina| Gateway District|      44114|          17|  4.0|   OH|
++--------------------+--------------------+--------------------+--------------------+---------+--------------------+-------+-------------+--------------+--------------------+-----------------+-----------+------------+-----+-----+
+only showing top 20 rows
+
++--------------------+
+|             address|
++--------------------+
+|2128 Warrensville...|
+|      3710 Payne Ave|
+|      13181 Cedar Rd|
+|                    |
+|       1 American Rd|
+|   6812 Broadview Rd|
+|   6770 Brookpark Rd|
+|    11625 Euclid Ave|
+|      13908 Cedar Rd|
+|    7412 Detroit Ave|
+|  4645 Northfield Rd|
+|       4215 Ridge Rd|
+|       One Center Ct|
+|     1900 Euclid Ave|
+|      24325 Cedar Rd|
+|       5796 Ridge Rd|
+|      200 Euclid Ave|
+|      850 Euclid Ave|
+|    4488 Mayfield Rd|
+|    1838 Coventry Rd|
++--------------------+
+only showing top 20 rows
++--------+
+|count(1)|
++--------+
+|    3164|
++--------+
+
++--------------------+----+
+|                city|  bi|
++--------------------+----+
+|           Cleveland|2979|
+|   Cleveland Heights| 179|
+|      East Cleveland|   4|
+|Mayfield Heights ...|   1|
+|    Cleveland Hghts.|   1|
++--------------------+----+
