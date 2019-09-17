@@ -13,7 +13,7 @@ import org.apache.spark.sql.SparkSession
 /** The main class */
 object ReadJson {
 
-  @transient lazy val conf: SparkConf = new SparkConf().setMaster("local").setAppName("StackOverflow")
+  @transient lazy val conf: SparkConf = new SparkConf().setMaster("local").setAppName("Test")
   @transient lazy val sc: SparkContext = new SparkContext(conf)
 
   /** Main function */
